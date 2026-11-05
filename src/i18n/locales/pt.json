@@ -1,0 +1,164 @@
+{
+  "siteName": "Instituição Ana Prado",
+  "meta": {
+    "description": "Instituição Ana Prado (IAP): obra social em Pau Amarelo (PE) criada em homenagem à vovó Ana Prado. Conheça nossa história, nossas obras e saiba como ajudar."
+  },
+  "a11y": {
+    "skipToContent": "Pular para o conteúdo",
+    "mainNav": "Navegação principal",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "language": "Idioma",
+    "home": "Instituição Ana Prado – página inicial",
+    "newTab": "(abre em nova aba)"
+  },
+  "languages": { "pt": "Português", "es": "Español", "en": "English" },
+  "nav": {
+    "home": "Inicial",
+    "history": "Nossa História",
+    "works": "Obras",
+    "testimonials": "Depoimentos",
+    "donate": "Doar",
+    "menu": "Menu"
+  },
+  "cover": {
+    "welcome": "Seja bem-vindo(a)",
+    "tagline": "Em memória de vovó Ana Prado (1951–2023)",
+    "enter": "Entrar",
+    "photoAlt": "Foto de vovó Ana Prado sorrindo",
+    "illustrationAlt": "Ilustração do centro de Pau Amarelo, com o mar, coqueiros e casinhas coloridas"
+  },
+  "home": {
+    "title": "Bem-vindo(a) à Instituição Ana Prado",
+    "historyButton": "Nossa História",
+    "impactTitle": "Nossas obras em números",
+    "cardsTitle": "Como podemos caminhar juntos",
+    "cards": {
+      "works": { "title": "Obras", "text": "Veja o que fazemos pela comunidade de Pau Amarelo." },
+      "testimonials": { "title": "Depoimentos", "text": "Leia histórias de quem foi tocado por este trabalho — e conte a sua." },
+      "donate": { "title": "Doar", "text": "Ajude com Pix, Zelle ou doando itens e serviços." }
+    }
+  },
+  "history": {
+    "title": "Nossa História"
+  },
+  "works": {
+    "title": "Nossas Obras",
+    "intro": "Cada obra é uma forma de continuar o cuidado que vovó Ana tinha com as pessoas.",
+    "more": "Saiba mais",
+    "less": "Mostrar menos",
+    "empty": "Em breve publicaremos nossas obras aqui.",
+    "volunteerTitle": "Quer ajudar com seu tempo ou talento?",
+    "volunteerText": "Você pode ser voluntário(a) nas nossas ações ou oferecer um serviço (saúde, educação, reformas, transporte…). Mande um e-mail contando como gostaria de ajudar.",
+    "volunteerButton": "Quero ser voluntário / oferecer serviços",
+    "volunteerEmail": {
+      "subject": "Quero ser voluntário(a) / oferecer serviços",
+      "body": "Olá, Instituição Ana Prado!\n\nGostaria de ajudar.\n\nNome:\nTelefone/WhatsApp:\nCidade:\nComo posso ajudar (voluntariado ou serviço):\nDias e horários disponíveis:\n\nObrigado(a)!"
+    }
+  },
+  "testimonials": {
+    "title": "Depoimentos",
+    "intro": "Histórias de quem conviveu com vovó Ana e de quem participa das nossas obras.",
+    "listTitle": "O que as pessoas dizem",
+    "empty": "Ainda não há depoimentos publicados. Que tal ser o primeiro?",
+    "loading": "Carregando depoimentos…",
+    "loadError": "Não foi possível carregar os depoimentos agora. Tente novamente mais tarde.",
+    "writtenIn": "Escrito em {{lang}}",
+    "mockNotice": "Modo de demonstração: os depoimentos ficam salvos apenas neste navegador.",
+    "form": {
+      "title": "Deixe seu depoimento",
+      "intro": "Todos os depoimentos são lidos com carinho pela nossa equipe antes de aparecerem no site.",
+      "name": "Seu nome",
+      "relation": "Sua relação com a instituição ou com vovó Ana",
+      "relationHint": "Ex.: voluntária, família atendida, vizinho, neta da vovó Ana",
+      "message": "Seu depoimento",
+      "charsLeft": "{{count}} caracteres restantes",
+      "language": "Idioma em que você escreveu",
+      "consent": "Autorizo a Instituição Ana Prado a publicar meu nome e meu depoimento neste site.",
+      "optional": "(opcional)",
+      "submit": "Enviar depoimento",
+      "sending": "Enviando…",
+      "honeypot": "Não preencha este campo",
+      "successTitle": "Obrigado!",
+      "successText": "Seu depoimento foi recebido e será revisado pela nossa equipe antes de aparecer no site.",
+      "sendAnother": "Enviar outro depoimento"
+    },
+    "errors": {
+      "nameRequired": "Por favor, escreva seu nome.",
+      "nameTooLong": "O nome pode ter no máximo {{max}} caracteres.",
+      "relationTooLong": "Este campo pode ter no máximo {{max}} caracteres.",
+      "messageTooShort": "O depoimento precisa ter pelo menos {{min}} caracteres.",
+      "messageTooLong": "O depoimento pode ter no máximo {{max}} caracteres.",
+      "consentRequired": "Para enviar, marque a autorização de publicação.",
+      "tooSoon": "Você acabou de enviar um depoimento. Aguarde alguns minutos para enviar outro.",
+      "generic": "Não foi possível enviar agora. Verifique sua conexão e tente novamente.",
+      "summary": "Corrija os campos destacados abaixo."
+    }
+  },
+  "donate": {
+    "title": "Doar",
+    "intro": "Toda ajuda, de qualquer tamanho, faz diferença na vida das famílias de Pau Amarelo. Obrigado por estar aqui!",
+    "numbersTitle": "Transparência",
+    "pix": {
+      "title": "Pix",
+      "subtitle": "Para doações em reais (Brasil)",
+      "keyLabel": "Chave Pix",
+      "keyType": "Tipo de chave",
+      "holder": "Favorecido",
+      "bank": "Banco",
+      "copy": "Copiar chave",
+      "copied": "Chave copiada!",
+      "copyFail": "Não foi possível copiar. Selecione a chave e copie manualmente.",
+      "qrAlt": "QR Code Pix da Instituição Ana Prado",
+      "qrHint": "Abra o app do seu banco, escolha Pix › Ler QR Code e aponte a câmera."
+    },
+    "zelle": {
+      "title": "Zelle (dólar)",
+      "subtitle": "Para doações a partir dos Estados Unidos",
+      "recipient": "Destinatário",
+      "contact": "E-mail ou telefone Zelle",
+      "bank": "Banco"
+    },
+    "inKind": {
+      "title": "Quer doar algo que não é dinheiro?",
+      "text": "Alimentos, roupas, livros, móveis, materiais escolares ou serviços: fale com a gente e combinamos juntos.",
+      "button": "Enviar e-mail",
+      "subject": "Quero doar itens ou serviços",
+      "body": "Olá, Instituição Ana Prado!\n\nGostaria de doar:\n\nO que vou doar:\nQuantidade:\nPosso entregar ou preciso que busquem? \nNome:\nTelefone/WhatsApp:\n\nObrigado(a)!"
+    }
+  },
+  "footer": {
+    "memory": "Com carinho, em memória de vovó Ana Prado (1951–2023).",
+    "contact": "Contato",
+    "followUs": "Siga-nos",
+    "rights": "© {{year}} Instituição Ana Prado"
+  },
+  "admin": {
+    "title": "Administração de depoimentos",
+    "mockWarning": "Modo de desenvolvimento (mock): esta página NÃO tem login real e os dados ficam salvos apenas neste navegador. Serve só para testes.",
+    "configMissing": "O Supabase não está configurado. Preencha VITE_SUPABASE_URL e VITE_SUPABASE_ANON_KEY no arquivo .env, ou use VITE_USE_MOCK=true.",
+    "loginTitle": "Entrar como administrador",
+    "email": "E-mail",
+    "password": "Senha",
+    "signIn": "Entrar",
+    "signingIn": "Entrando…",
+    "loginError": "E-mail ou senha incorretos.",
+    "signOut": "Sair",
+    "signedInAs": "Conectado como {{email}}",
+    "notAdmin": "Esta conta não tem permissão de administrador. Peça a um administrador para incluí-la na tabela \"admins\".",
+    "tabs": { "pending": "Pendentes", "approved": "Aprovados", "rejected": "Rejeitados" },
+    "approve": "Aprovar",
+    "reject": "Rejeitar",
+    "delete": "Excluir",
+    "confirmDelete": "Excluir este depoimento permanentemente?",
+    "empty": "Nenhum depoimento nesta lista.",
+    "receivedAt": "Recebido em {{date}}",
+    "refresh": "Atualizar",
+    "actionError": "A ação falhou. Tente novamente."
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "text": "O endereço que você procurou não existe ou mudou de lugar.",
+    "back": "Voltar à página inicial"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "home": {
+    "intro": [
+      "[PREENCHER] Párrafo corto que explica qué es la Institución Ana Prado: quiénes somos, dónde actuamos (Pau Amarelo, PE) y por qué existimos.",
+      "[PREENCHER] Segunda frase opcional."
+    ]
+  },
+  "history": {
+    "intro": "[PREENCHER] Frase de apertura de la historia.",
+    "sections": [
+      {
+        "title": "[PREENCHER] Quién fue la abuela Ana",
+        "paragraphs": [
+          "[PREENCHER] Ana Prado (1951–2023)…",
+          "[PREENCHER] Cada elemento entre comillas es un párrafo."
+        ],
+        "image": { "src": "/images/ana.jpg", "alt": "La abuela Ana Prado sonriendo", "caption": "[PREENCHER] Pie de foto" }
+      },
+      {
+        "title": "[PREENCHER] Cómo empezó todo",
+        "paragraphs": ["[PREENCHER] …"]
+      },
+      {
+        "title": "[PREENCHER] La Institución Ana Prado hoy",
+        "paragraphs": ["[PREENCHER] …"]
+      }
+    ]
+  }
+}

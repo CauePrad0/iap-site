@@ -1,0 +1,35 @@
+[
+  {
+    "id": "distribuicao-de-carne",
+    "icon": "meat",
+    "image": "",
+    "hidden": false,
+    "pt": {
+      "title": "Distribuição de carne",
+      "summary": "[PREENCHER] Resumo em uma ou duas frases.",
+      "details": ["[PREENCHER] Como funciona, quem é atendido, com que frequência."],
+      "facts": ["[PREENCHER] Quando: ex. todo último sábado do mês", "[PREENCHER] Onde: ex. sede em Pau Amarelo"]
+    },
+    "es": {
+      "title": "Distribución de carne",
+      "summary": "[PREENCHER] Resumen en una o dos frases.",
+      "details": ["[PREENCHER] Cómo funciona, a quién se atiende, con qué frecuencia."],
+      "facts": ["[PREENCHER] Cuándo: …", "[PREENCHER] Dónde: …"]
+    },
+    "en": {
+      "title": "Meat distribution",
+      "summary": "[PREENCHER] One- or two-sentence summary.",
+      "details": ["[PREENCHER] How it works, who it serves, how often."],
+      "facts": ["[PREENCHER] When: …", "[PREENCHER] Where: …"]
+    }
+  },
+  {
+    "id": "modelo-nova-obra",
+    "icon": "cookie",
+    "image": "",
+    "hidden": true,
+    "pt": { "title": "Modelo: Biscoitos", "summary": "Copie este bloco para criar uma nova obra e mude \"hidden\" para false.", "details": [], "facts": [] },
+    "es": { "title": "Modelo: Galletas", "summary": "", "details": [], "facts": [] },
+    "en": { "title": "Template: Cookies", "summary": "", "details": [], "facts": [] }
+  }
+]

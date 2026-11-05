@@ -1,0 +1,33 @@
+{
+  "home": {
+    "intro": [
+      "[PREENCHER] Parágrafo curto explicando o que é a Instituição Ana Prado: quem somos, onde atuamos (Pau Amarelo, PE) e por que existimos.",
+      "[PREENCHER] Segunda frase opcional — por exemplo, como a instituição continua o cuidado que vovó Ana tinha com as pessoas."
+    ]
+  },
+  "history": {
+    "intro": "[PREENCHER] Frase de abertura da história, por exemplo: uma vida dedicada ao próximo.",
+    "sections": [
+      {
+        "title": "[PREENCHER] Quem foi vovó Ana",
+        "paragraphs": [
+          "[PREENCHER] Ana Prado (1951–2023)… Conte aqui a origem, a família e o jeito de ser de vovó Ana.",
+          "[PREENCHER] Você pode escrever quantos parágrafos quiser: cada item entre aspas vira um parágrafo."
+        ],
+        "image": { "src": "/images/ana.jpg", "alt": "Vovó Ana Prado sorrindo", "caption": "[PREENCHER] Legenda da foto" }
+      },
+      {
+        "title": "[PREENCHER] Como tudo começou",
+        "paragraphs": [
+          "[PREENCHER] A origem das ações sociais em Pau Amarelo…"
+        ]
+      },
+      {
+        "title": "[PREENCHER] A Instituição Ana Prado hoje",
+        "paragraphs": [
+          "[PREENCHER] Por que a instituição foi renomeada em homenagem a ela e o que fazemos hoje."
+        ]
+      }
+    ]
+  }
+}

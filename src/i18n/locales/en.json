@@ -1,0 +1,164 @@
+{
+  "siteName": "Ana Prado Institution",
+  "meta": {
+    "description": "Ana Prado Institution (IAP): a community charity in Pau Amarelo, Pernambuco, Brazil, created in honor of Grandma Ana Prado. Learn our story, our projects and how to help."
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "mainNav": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "home": "Ana Prado Institution – home page",
+    "newTab": "(opens in a new tab)"
+  },
+  "languages": { "pt": "Português", "es": "Español", "en": "English" },
+  "nav": {
+    "home": "Home",
+    "history": "Our Story",
+    "works": "Projects",
+    "testimonials": "Testimonials",
+    "donate": "Donate",
+    "menu": "Menu"
+  },
+  "cover": {
+    "welcome": "Welcome",
+    "tagline": "In loving memory of Grandma Ana Prado (1951–2023)",
+    "enter": "Enter",
+    "photoAlt": "Photo of Grandma Ana Prado smiling",
+    "illustrationAlt": "Illustration of downtown Pau Amarelo, with the sea, coconut palms and colorful little houses"
+  },
+  "home": {
+    "title": "Welcome to the Ana Prado Institution",
+    "historyButton": "Our Story",
+    "impactTitle": "Our work in numbers",
+    "cardsTitle": "How we can walk together",
+    "cards": {
+      "works": { "title": "Projects", "text": "See what we do for the Pau Amarelo community." },
+      "testimonials": { "title": "Testimonials", "text": "Read stories from people touched by this work, and share yours." },
+      "donate": { "title": "Donate", "text": "Help through Pix, Zelle, or by donating goods and services." }
+    }
+  },
+  "history": {
+    "title": "Our Story"
+  },
+  "works": {
+    "title": "Our Projects",
+    "intro": "Each project is a way of carrying on the care Grandma Ana had for people.",
+    "more": "Learn more",
+    "less": "Show less",
+    "empty": "We will publish our projects here soon.",
+    "volunteerTitle": "Want to help with your time or talent?",
+    "volunteerText": "You can volunteer at our activities or offer a service (health, education, repairs, transportation…). Send us an email telling us how you would like to help.",
+    "volunteerButton": "I want to volunteer / offer services",
+    "volunteerEmail": {
+      "subject": "I want to volunteer / offer services",
+      "body": "Hello, Ana Prado Institution!\n\nI would like to help.\n\nName:\nPhone/WhatsApp:\nCity:\nHow I can help (volunteering or service):\nAvailable days and times:\n\nThank you!"
+    }
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "intro": "Stories from people who knew Grandma Ana and from those who take part in our projects.",
+    "listTitle": "What people say",
+    "empty": "No testimonials have been published yet. Would you like to be the first?",
+    "loading": "Loading testimonials…",
+    "loadError": "We couldn't load the testimonials right now. Please try again later.",
+    "writtenIn": "Written in {{lang}}",
+    "mockNotice": "Demo mode: testimonials are saved only in this browser.",
+    "form": {
+      "title": "Share your testimonial",
+      "intro": "Our team carefully reads every testimonial before it appears on the site.",
+      "name": "Your name",
+      "relation": "Your connection to the institution or to Grandma Ana",
+      "relationHint": "E.g.: volunteer, family we serve, neighbor, Grandma Ana's granddaughter",
+      "message": "Your testimonial",
+      "charsLeft": "{{count}} characters left",
+      "language": "Language you wrote in",
+      "consent": "I authorize the Ana Prado Institution to publish my name and testimonial on this website.",
+      "optional": "(optional)",
+      "submit": "Send testimonial",
+      "sending": "Sending…",
+      "honeypot": "Do not fill in this field",
+      "successTitle": "Thank you!",
+      "successText": "We received your testimonial. Our team will review it before it appears on the site.",
+      "sendAnother": "Send another testimonial"
+    },
+    "errors": {
+      "nameRequired": "Please enter your name.",
+      "nameTooLong": "Your name can have at most {{max}} characters.",
+      "relationTooLong": "This field can have at most {{max}} characters.",
+      "messageTooShort": "Your testimonial needs at least {{min}} characters.",
+      "messageTooLong": "Your testimonial can have at most {{max}} characters.",
+      "consentRequired": "To send, please check the publication authorization.",
+      "tooSoon": "You just sent a testimonial. Please wait a few minutes before sending another.",
+      "generic": "We couldn't send it right now. Check your connection and try again.",
+      "summary": "Please fix the highlighted fields below."
+    }
+  },
+  "donate": {
+    "title": "Donate",
+    "intro": "Every gift, of any size, makes a difference in the lives of families in Pau Amarelo. Thank you for being here!",
+    "numbersTitle": "Transparency",
+    "pix": {
+      "title": "Pix",
+      "subtitle": "For donations in Brazilian reais",
+      "keyLabel": "Pix key",
+      "keyType": "Key type",
+      "holder": "Recipient",
+      "bank": "Bank",
+      "copy": "Copy key",
+      "copied": "Key copied!",
+      "copyFail": "Couldn't copy. Please select the key and copy it manually.",
+      "qrAlt": "Ana Prado Institution Pix QR code",
+      "qrHint": "Open your bank app, choose Pix › Scan QR code and point the camera."
+    },
+    "zelle": {
+      "title": "Zelle (US dollars)",
+      "subtitle": "For donations from the United States",
+      "recipient": "Recipient",
+      "contact": "Zelle email or phone",
+      "bank": "Bank"
+    },
+    "inKind": {
+      "title": "Want to donate something other than money?",
+      "text": "Food, clothes, books, furniture, school supplies or services: get in touch and we'll arrange it together.",
+      "button": "Send an email",
+      "subject": "I want to donate goods or services",
+      "body": "Hello, Ana Prado Institution!\n\nI would like to donate:\n\nWhat I'm donating:\nQuantity:\nCan I drop it off, or does it need to be picked up?\nName:\nPhone/WhatsApp:\n\nThank you!"
+    }
+  },
+  "footer": {
+    "memory": "With love, in memory of Grandma Ana Prado (1951–2023).",
+    "contact": "Contact",
+    "followUs": "Follow us",
+    "rights": "© {{year}} Ana Prado Institution"
+  },
+  "admin": {
+    "title": "Testimonials admin",
+    "mockWarning": "Development mode (mock): this page has NO real login and data is stored only in this browser. For testing only.",
+    "configMissing": "Supabase is not configured. Fill in VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY in the .env file, or use VITE_USE_MOCK=true.",
+    "loginTitle": "Admin sign in",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "signingIn": "Signing in…",
+    "loginError": "Incorrect email or password.",
+    "signOut": "Sign out",
+    "signedInAs": "Signed in as {{email}}",
+    "notAdmin": "This account doesn't have admin permission. Ask an admin to add it to the \"admins\" table.",
+    "tabs": { "pending": "Pending", "approved": "Approved", "rejected": "Rejected" },
+    "approve": "Approve",
+    "reject": "Reject",
+    "delete": "Delete",
+    "confirmDelete": "Permanently delete this testimonial?",
+    "empty": "No testimonials in this list.",
+    "receivedAt": "Received on {{date}}",
+    "refresh": "Refresh",
+    "actionError": "The action failed. Please try again."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The address you were looking for doesn't exist or has moved.",
+    "back": "Back to the home page"
+  }
+}

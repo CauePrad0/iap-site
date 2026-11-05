@@ -1,0 +1,29 @@
+{
+  "home": {
+    "intro": [
+      "[PREENCHER] Short paragraph explaining what the Ana Prado Institution is: who we are, where we work (Pau Amarelo, PE, Brazil) and why we exist.",
+      "[PREENCHER] Optional second sentence."
+    ]
+  },
+  "history": {
+    "intro": "[PREENCHER] Opening line of the story.",
+    "sections": [
+      {
+        "title": "[PREENCHER] Who Grandma Ana was",
+        "paragraphs": [
+          "[PREENCHER] Ana Prado (1951–2023)…",
+          "[PREENCHER] Each quoted item becomes a paragraph."
+        ],
+        "image": { "src": "/images/ana.jpg", "alt": "Grandma Ana Prado smiling", "caption": "[PREENCHER] Photo caption" }
+      },
+      {
+        "title": "[PREENCHER] How it all began",
+        "paragraphs": ["[PREENCHER] …"]
+      },
+      {
+        "title": "[PREENCHER] The Ana Prado Institution today",
+        "paragraphs": ["[PREENCHER] …"]
+      }
+    ]
+  }
+}

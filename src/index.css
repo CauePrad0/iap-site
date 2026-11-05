@@ -1,0 +1,88 @@
+@import 'tailwindcss';
+
+/* Paleta e tipografia da identidade visual (usadas como classes: bg-cream, text-sage etc.) */
+@theme {
+  --color-cream: #f8f5ec;
+  --color-cream-dark: #efe9da;
+  --color-paper: #fffdf8;
+  --color-sage: #5c7550;
+  --color-sage-dark: #46603b;
+  --color-sage-light: #a9bb9c;
+  --color-gold: #d2ab6b;
+  --color-gold-dark: #8a6a2f;
+  --color-blush: #f2c9b8;
+  --color-peach: #f6dcc9;
+  --color-ink: #33402f;
+  --color-ink-soft: #4f5c4a;
+
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Lato', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+@layer base {
+  html {
+    /* 17px de base: leitura confortável para todas as idades */
+    font-size: 106.25%;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream font-sans text-ink antialiased;
+    line-height: 1.65;
+  }
+  h1, h2, h3 {
+    @apply font-serif text-sage-dark;
+    line-height: 1.15;
+    font-weight: 600;
+  }
+  /* Foco sempre bem visível para quem navega pelo teclado */
+  :focus-visible {
+    outline: 3px solid var(--color-gold-dark);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+}
+
+/* Componentes reutilizáveis (Tailwind v4: @utility permite usar com @apply e variantes) */
+@utility btn {
+  @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 py-3 text-base font-bold
+    transition-colors duration-200 disabled:cursor-not-allowed disabled:opacity-60;
+}
+@utility btn-primary {
+  @apply btn bg-sage text-white hover:bg-sage-dark;
+}
+@utility btn-outline {
+  @apply btn border-2 border-sage bg-paper text-sage-dark hover:bg-cream-dark;
+}
+@utility btn-gold {
+  @apply btn bg-gold text-ink hover:bg-[#c49a55];
+}
+@utility card {
+  @apply rounded-3xl border border-gold/40 bg-paper shadow-[0_4px_24px_-12px_rgba(70,96,59,0.25)];
+}
+@utility page-title {
+  @apply text-center text-4xl sm:text-5xl;
+}
+@utility prose-iap {
+  & p {
+    @apply mb-4 text-lg leading-relaxed text-ink;
+  }
+}
+@utility field-label {
+  @apply mb-1 block font-bold text-ink;
+}
+@utility field {
+  @apply w-full rounded-xl border-2 border-sage-light bg-white px-4 py-3 text-base text-ink
+    placeholder:text-ink-soft/70 focus:border-sage focus:outline-none;
+}
+
+/* Texto apenas para leitores de tela (honeypot e rótulos auxiliares) */
+.sr-only-iap {
+  position: absolute !important;
+  width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
